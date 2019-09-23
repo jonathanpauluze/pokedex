@@ -1,0 +1,19 @@
+.poke-card {
+	max-width: 300px;
+	padding: 20px;
+	margin: 0 auto 20px auto;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 2px 2px 6px #ccc;
+}
+
+.poke-card img {
+	display: block;
+	width: 150px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 75px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
