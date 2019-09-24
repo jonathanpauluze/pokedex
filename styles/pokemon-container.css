@@ -1,7 +1,14 @@
-/*.poke-container {
-	display: flex;
-	flex-wrap: wrap;
+.poke-container {
+	display: grid;
+	/* flex-wrap: wrap; */
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	min-width: 300px;
 	max-width: 960px;
 	margin: 0 auto;
-}*/
+}
+
+@media only screen and (max-width: 768px){
+	.poke-container {
+		grid-template-columns: 1fr 1fr;
+	}
+}

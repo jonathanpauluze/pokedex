@@ -25,10 +25,10 @@ const createPokemonCard = (pokemon) => {
 
 	pokeContainer.innerHTML += `
 		<div class="poke-card ${pokeType}">
-			<img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"/>
-			<p>#${pokeId}</p>
-			<h2>${pokemon.name.toUpperCase()}</h2>
-			<p>Type: ${pokeType.toUpperCase()}</p>
+			<img class="poke-img" src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"/>
+			<p class="poke-id">#${pokeId}</p>
+			<h2 class="poke-name">${pokemon.name.toUpperCase()}</h2>
+			<p class="poke-type">Type: ${pokeType.toUpperCase()}</p>
 		</div>
 	`
 }
