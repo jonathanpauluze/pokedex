@@ -1,7 +1,6 @@
 .poke-card {
-	max-width: 300px;
-	padding: 20px;
-	margin: 0 auto 20px auto;
+	width: 90%;
+	margin: 0 auto;
 	box-sizing: border-box;
 	border-radius: 4px;
 	box-shadow: 2px 2px 6px #ccc;
@@ -17,12 +16,12 @@
 	border-radius: 75px;
 	padding: 5px;
 	box-sizing: border-box;
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 }
 
 .poke-id {
 	width: 50px;
-	margin: 20px auto;
+	margin: 20px auto 0 auto;
 	text-align: center;
 	font-size: 12px;
 	background-color: #fff;
@@ -33,9 +32,11 @@
 .poke-name {
 	text-align: center;
 	font-size: 18px;
+	margin-top: 20px;
 }
 
 .poke-type {
 	text-align: center;
 	text-decoration: underline;
+	margin: 20px 0;
 }
