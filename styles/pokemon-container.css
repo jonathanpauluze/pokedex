@@ -12,3 +12,9 @@
 		grid-template-columns: 1fr 1fr;
 	}
 }
+
+@media only screen and (max-width: 440px){
+	.poke-container {
+		grid-template-columns: 1fr;
+	}
+}
